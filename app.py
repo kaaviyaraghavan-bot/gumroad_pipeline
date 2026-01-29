@@ -16,7 +16,7 @@ GUMROAD_TOKEN = os.getenv("GUMROAD_TOKEN")
 GUMROAD_URL = "https://api.gumroad.com/v2/sales"
 
 AIRTABLE_TOKEN = os.getenv("AIRTABLE_TOKEN")
-AIRTABLE_BASE_ID = "appkPLMUOGU8jpCIA"
+AIRTABLE_BASE_ID = os.getenv("AIRTABLE_BASE_ID")
 
 RAW_TABLE = "Gumroad_raw_sales"
 CLEAN_TABLE = "Gumroad_clean_sales"
